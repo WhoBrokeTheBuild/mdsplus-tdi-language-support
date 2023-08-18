@@ -1,4 +1,4 @@
-# mdsplus-tdi-language-support README
+# MDSplus TDI Language Support
 
 Provides syntax highlighting for MDSplus' TDI language.
 
