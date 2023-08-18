@@ -1,0 +1,27 @@
+{
+  "name": "mdsplus-tdi-language-support",
+  "displayName": "MDSplus TDI Language Support",
+  "description": "MDSplus TDI Language Support for VS Code.",
+  "version": "1.0.1",
+  "repository": "https://github.com/WhoBrokeTheBuild/mdsplus-tdi-language-support",
+  "publisher": "MDSplus",
+  "engines": {
+    "vscode": "^1.81.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "mdsplus-tdi",
+      "aliases": ["MDSplus TDI", "mdsplus-tdi"],
+      "extensions": [".tdi", ".fun"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "mdsplus-tdi",
+      "scopeName": "source.mdsplus-tdi",
+      "path": "./syntaxes/mdsplus-tdi.tmLanguage.json"
+    }]
+  }
+}
