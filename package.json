@@ -2,7 +2,7 @@
   "name": "mdsplus-tdi-language-support",
   "displayName": "MDSplus TDI Language Support",
   "description": "MDSplus TDI Language Support for VS Code.",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "repository": "https://github.com/WhoBrokeTheBuild/mdsplus-tdi-language-support",
   "icon": "logo.jpg",
   "publisher": "MDSplus",

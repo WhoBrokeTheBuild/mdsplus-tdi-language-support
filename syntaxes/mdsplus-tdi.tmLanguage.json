@@ -71,23 +71,23 @@
             "patterns": [
                 {
                     "name": "constant.numeric.float.mdsplus-tdi",
-                    "match": "(-?[0-9]+[DF][0-9]+)"
+                    "match": "(-?[0-9]+\\.[0-9]*[a-zA-Z]*[0-9]*)"
                 },
                 {
                     "name": "constant.numeric.float.mdsplus-tdi",
-                    "match": "(-?[0-9]*\\.[0-9]+)"
+                    "match": "(-?[0-9]*\\.[0-9]+[a-zA-Z]*[0-9]*)"
                 },
                 {
                     "name": "constant.numeric.hex.mdsplus-tdi",
-                    "match": "(?i)(-?0[xX][0-9a-f]+[a-z])"
+                    "match": "(-?0[xX][0-9a-fA-F]+[a-zA-Z]*)"
                 },
                 {
                     "name": "constant.numeric.scientific-notation.mdsplus-tdi",
-                    "match": "(-?[0-9]+[eE]-?[0-9]+)"
+                    "match": "(-?[0-9]*\\.?[0-9]+[eE]-?[0-9]+[a-zA-Z]*)"
                 },
                 {
                     "name": "constant.numeric.integer.mdsplus-tdi",
-                    "match": "(?i)(-?[0-9]+[a-z]*)"
+                    "match": "(-?[0-9]+[a-zA-Z]*)"
                 }
             ]
         },
